@@ -3,6 +3,8 @@
 This demo project demonstrates one method of creating a seamless repeating
 2D map in Unity.
 
+![Seamless Looping Map](./hero-img.gif "Seamless Looping Map")
+
 Basically, we create three additional cameras to cover the offscreen space,
 then teleport the player to the opposite end of the map when they go
 out of bounds. The extra cameras get repositioned each frame to give the
